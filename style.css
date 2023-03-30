@@ -1,0 +1,178 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://picsum.photos/1600/900'); /* 배경 이미지 추가 */
+  background-repeat: no-repeat; /* 배경 이미지 반복 안함 */
+  background-size: cover; /* 배경 이미지 크기에 맞추어 보여줌 */
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: transparent; /* 투명 배경 */
+  box-shadow: none; /* 그림자 제거 */
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #fff; /* 흰색 글자 적용 */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* 흰색 글자 그림자 적용 */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 검은색 반투명 배경 */
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff; /* 흰색 글자 적용 */
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: #ccc; /* 회색 글자로 변경 */
+}
+
+main {
+  padding: 2rem;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* 백그라운드 색 흰색 반투명으로 변경 */
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0; /* 섹션 간격 추가 */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem; /* 제목과 내용 간격 추가 */
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+a {
+  color: #333;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #999;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+.home h2 {
+  margin: 0 0 1rem 0;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.home p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 300;
+  opacity: 0.8;
+  letter-spacing: 0.05rem;
+  line-height: 1.5;
+}
+
+.about h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.about ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.about ul li {
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 2rem auto;
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.contact ul {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact ul li {
+  font-size: 1.2rem;
+  line-height: 2;
+}
